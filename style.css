@@ -1,0 +1,19 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+}
+
+.center{
+    border-radius: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.container{
+    padding: 50px;
+    width: 300px;
+    background-color: hsl(244, 38%, 16%);
+}
