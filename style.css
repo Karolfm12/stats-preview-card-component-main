@@ -3,7 +3,7 @@ body{
     color: white;
 }
 
-.center{
+section{
     border-radius: 500px;
     display: flex;
     flex-direction: row;
