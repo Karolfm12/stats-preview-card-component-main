@@ -1,19 +1,25 @@
-body{
-    
-    color:red;
+@import url(https://fonts.google.com/specimen/Inter);
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
 
+h1{
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
 }
 
+p{
+    font-family: 'Lexend+Deca','Courier New', Courier, monospace;
+    font-weight:;
+}
 img{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    height: 300px;
+    height: 375px;
 }
 
 .container{
     color:white;
     padding: 50px;
-    height: 200px;
+    height: auto;
     width: 300px;
     background-color: hsl(244, 38%, 16%);
     border-top-left-radius: 20px;
@@ -31,4 +37,8 @@ section{
 .centr{
     display: flex;
     justify-content: space-between;
+}
+
+span{
+    font-weight: bold;
 }
