@@ -9,20 +9,27 @@ h1{
 p{
     font-family: 'Lexend+Deca','Courier New', Courier, monospace;
 }
-img{
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    height: 375px;
-}
 
 .container{
-    color:white;
-    padding: 50px;
+    display: flex;
     height: auto;
-    width: 300px;
+    
+}
+
+img{
+    opacity: 0.3;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 400px;
+}
+
+.text{
+    color:white;
+    padding: 40px;
+    width: 400px;
     background-color: hsl(244, 38%, 16%);
     border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 20px; 
 }
 
 section{
